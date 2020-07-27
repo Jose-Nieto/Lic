@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    margin:4px;
+}
+.ul{
+ 
+    text-align: right;
+  width: 700px;
+  margin-left: 500px;
+
+}
+span{
+    color: rgba(133, 167, 40, 0.836);
+}
+.menu{
+    display: inline-block;
+margin-top: 50px;
+    margin-left: 90px;
+  width: 30px;
+}
+a:hover{
+    color: #09a12ad5;
+
+    border-radius: 5px;
+   
+}
+
+.sublista{
+    display: block;
+margin-left: 0px;
+padding: 3px;
+position: relative;
+height: 30px;
+    text-align: center;
+margin-top: 30px;
+}
+.submenu{
+    position: absolute;
+    display: none; 
+    background-color: white;
+    height: auto;
+    margin-top: 1px;
+    margin-left: -3px;
+width: 100px;
+z-index:1 ;
+
+padding-bottom: 10px;
+
+
+}
+
+li a:hover + ul, .submenu:hover {
+  
+    display: block;
+  
+}
+.logo{
+    width: 220px;
+    margin-top: -10px;
+    margin-left: -800px;
+    position: absolute;
+}
+.Uno{
+    background-image: url('recursos/ter.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #72b380d5;
+
+    
+    width: 100%;
+    height: auto;
+}
+.Dos{
+    background-image: url('recursos/ter.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    margin-top: -10px;
+    background-color: wheat;
+}
+h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+p{
+    color: white;
+    background-color: black;
+    width: 300px;
+    padding: 9px;
+    border-radius: 6px;
+    text-align: justify;
+    height: auto;
+    font-family: 'Domine', serif;
+}
+.abs{
+    margin-top: 70px;
+    margin-left: 90px;
+}
+.round{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.ceil{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -150px; 
+    
+}
+#round{
+    margin-left: 350px;
+    margin-top: 10px;
+height: 30px;
+width: auto;
+
+position: absolute;
+}
+#abs{
+    width: auto;
+    height: 30px;
+    background-color: white;
+    margin-left: 207px;
+    margin-top: 10px;
+}
+#ceil{
+    width: auto;
+    height: 30px;
+    background-color: white;
+    margin-left: 757px;
+    margin-top: 10px;
+}
+.floor{
+    margin-top: 30px;
+    margin-left:90px ;
+}
+#floor{
+    width: auto;
+    height: 30px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 207px;
+}
+.exp{
+    margin-top: -70px;
+    margin-left: 500px;
+position: absolute;
+}
+#exp{
+    position: absolute;
+    width: auto;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 620px;
+}
+.log{
+    margin-top: -70px;
+    margin-left: 900px;
+position: relative;
+}
+#log{
+    position: relative;
+    width: auto;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 1050px;
+}
+.ramdon{
+margin-left: 500px;
+margin-top: 100px;
+}
+#ramdon{
+width: auto;
+height: 30px;
+margin-left: 625px;
+margin-top: 10px;
+margin-bottom: 80px;
+}
+body{
+    margin-top: -10px;
+}
+.Dos> p{
+    color: black;
+    background-color: white;
+    height: auto;
+}
+.pop{
+    margin-top: 90px;
+    margin-left: 130px;
+}
+.push{
+    position: relative;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-top: 40px;
+}
+.Dos>h1{
+    background-color: white;
+    color: black;
+    height: auto;
+    padding-bottom: 10px;
+}
+#push{
+    width: auto;
+height: 30px;
+position: absolute;
+margin-left: 655px;
+margin-top: -120px;
+margin-bottom: 80px;
+}
+.rever{
+    margin-left: 130px;
+    margin-top: 50px;
+    
+}
+.eje{
+    text-decoration: none;
+    color: black;
+    font-family: 'Domine', serif;
+    margin-left: 700px;
+    margin-top: -070px;
+    background-color: white;
+    height: auto;
+position: absolute;
+padding: 20px;
+}

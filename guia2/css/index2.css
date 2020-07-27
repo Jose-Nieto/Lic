@@ -1,0 +1,12 @@
+.tabla{
+    width: 300px;
+    margin-left: 500px;
+
+}
+thead{
+    background-color: yellow;
+}
+td{
+    background-color: beige;
+    text-align: center;
+}

@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+list-style: none;
+
+
+}
+.acordeon{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    margin:4px;
+}
+.nav{
+    border: 2px solid #eaeaea;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+
+}
+.ul{
+ 
+    text-align: right;
+  width: 700px;
+  margin-left: 500px;
+
+}
+span{
+    color: rgba(133, 167, 40, 0.836);
+}
+.menu{
+    display: inline-block;
+    margin: 35px;
+  width: 30px;
+}
+a:hover{
+    color: #09a12ad5;
+
+    border-radius: 5px;
+   
+}
+
+.sublista{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+.submenu{
+    position: absolute;
+    display: none; 
+    background-color: white;
+
+padding-bottom: 10px;
+
+
+}
+
+li a:hover + ul, .submenu:hover {
+  
+    display: block;
+}
+.logo{
+    width: 220px;
+    margin-top: -10px;
+    margin-left: 150px;
+    position: absolute;
+}
+video{
+    position: relative;
+ 
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: -1;
+    visibility: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    }
+
+    .perfil{
+        position: absolute;
+        width: 200px;
+        margin-top: -550px;
+        margin-left: 200px;
+    }
+    .frase{
+        border: 1px solid #fff;
+        width: 700px;
+        text-align: justify;
+        margin-left: 500px;
+        margin-top: -550px;
+        padding: 30px;
+        border-radius: 15px;
+        position: absolute;
+        font-size: 18px;
+        font-family: 'Slabo 27px', serif;
+        background-color: white;
+    }
+    h1{
+        font-family: 'Merienda One', cursive;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 450px;
+        width: 430px;
+        font-size: 40px;
+        border-bottom: 1px solid   #09a12ad5; 
+    
+    }
+
+    .Uno{
+        width: 300px;
+      text-align: justify;
+      font-family: 'Slabo 27px', serif;
+      font-size: 21px;
+      position:absolute ;
+      margin-left: 150px;
+      margin-top: 50px;
+      background-color: #fff6f6f8;
+      padding: 40px;
+      border-radius: 30px;
+     
+    }
+  .Dos{
+    width: 300px;
+    text-align: justify;
+    font-family: 'Slabo 27px', serif;
+    font-size: 21px;
+    position:absolute ;
+    margin-left: 800px;
+margin-top: 50px;  
+background-color: #fff6f6f8;
+border-radius: 30px;
+padding: 40px;
+}
+
+    i{
+  margin-left: 130px;
+  font-size: 60px;
+  margin-bottom: 20px;
+    }
+    footer{
+        font-family: 'Nunito Sans', sans-serif;
+        position: absolute;
+        text-align: center;
+        margin-top:40%;
+        width: 1287px;
+     
+        padding: 30px;
+        font-size: 16px;
+     
+    }
+    
+.desplegable{
+    text-align: right;
+    font-size: 30px;
+    display: none;
+}
+.acordeon__contenido>a{
+    margin-left: 40px;
+   }
+   
+/**/
+.acordeon{
+	width: 200px;
+	margin-left: 100px;
+    margin-top: 100px;
+    display: none;
+}
+.radio{
+	display: none;
+}
+
+.acordeon__titulo {
+	display: block;
+	padding: 15px;
+text-align: center;
+	color: gray;
+	font-size: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+.acordeon__titulo:hover {
+
+	color: #09a12ad5;
+}
+
+.acordeon__contenido {
+	height: 0;
+	overflow: hidden;
+display: block;
+
+	transition: all 0.5s;
+
+width: 200px;
+}
+.acordeon__item > .radio{
+display: none;
+}
+.acordeon__contenido>a{
+ margin-left: 40px;
+ 
+}
+.acordeon input:checked ~ .acordeon__contenido {
+	height: auto;
+    margin: 15px 0;
+    display: block;
+}
+/**/
+@media  (min-width: 1600px) {
+
+    .logo{
+        width: 200px;
+        margin-top: -5px;
+        margin-left: 170px;
+    }
+    .ul{
+
+      width: 700px;
+      margin-left: 500px;
+    
+    }
+    .nav{
+        width: 1595px;
+    }
+    video{
+        width: 1595px;
+        }
+    
+        .perfil{
+              margin-top: -620px;
+            margin-left: 340px;
+        }
+        .frase{
+       
+            margin-left: 625px;
+            margin-top: -620px;
+           }
+           footer{
+            margin-top:40%;
+            width: 1525px;
+            padding: 30px;
+        }
+        .Uno{
+          margin-left: 278px;
+          margin-top: 120px;
+        }
+      .Dos{
+        margin-left: 1000px;
+        margin-top: 120px;
+    }
+    h1{
+margin-left: 600px;
+
+    }
+  
+    
+}
+@media(min-width:1400px) and(max-width:1599px){
+    
+    footer{
+        width: 1333px;
+    }
+    .Uno{
+        margin-left: 200px;
+    }
+    .Dos{
+        margin-left: 1060px;
+ 
+    }
+    h1{
+        margin-left: 850px;
+    }
+
+}
+
+@media(min-width:1200px) and (max-width: 1300px){
+    
+    footer{
+        width: 1225px;
+    }
+    .Uno{
+        margin-left: 150px;
+    }
+    .Dos{
+        margin-left: 760px;
+ 
+    }
+    h1{
+        margin-left: 450px;
+    }
+    .perfil{
+        margin-top: -500px;
+      margin-left: 200px;
+  }
+  .frase{
+ 
+      margin-left: 425px;
+      margin-top: -500px;
+     }
+     .ul{
+         margin-left: 300px;
+     }
+    }
+
+@media(min-width:1300px) and (max-width:1399px){
+    .ul{ margin-left: 490px;
+ 
+ }
+ .logo{
+     margin-left: 100px;
+ }
+ .perfil{
+     margin-top: -500px;
+     margin-left: 250px;
+ }
+ .frase{
+     
+     margin-top: -500px;
+     margin-left: 500px;
+     width: 700px;
+ }
+ .Uno{
+     width: 270px;
+     margin-left: 220px;
+ }
+ .Dos{
+     width: 270px;
+     margin-left: 800px;
+ 
+ }
+ footer{
+     width: 1200px;
+     margin-left: 70px;
+     margin-top: 600px;
+ }
+ h1{
+     margin-left: 470px;
+ }
+ 
+ }
+ @media (min-width:975px) and (max-width:1024px){
+.ul{
+    margin-left: 170px;
+}
+.perfil{
+    margin-top: -380px;
+    margin-left: 110px;
+
+}
+.frase{   
+     margin-top: -380px;
+    margin-left: 350px;
+    width: 560px;
+}
+.Uno{
+    margin-left: 50px;
+}
+.Dos{
+    margin-left: 600px;
+}
+h1{
+margin-left: 320px;
+}
+footer{
+    margin-left: 100px;
+width: 800px;
+    margin-top: 600px
+}
+}
+
+/*-------*/
+ @media(min-width:1024px) and (max-width:1199px){
+
+   .ul{ margin-left: 190px;
+ 
+ }
+ .logo{
+     margin-left: 100px;
+ }
+ .perfil{
+     margin-top: -450px;
+     margin-left: 140px;
+ }
+ .frase{
+     
+     margin-top: -450px;
+     margin-left: 420px;
+     width: 500px;
+ }
+ .Uno{
+     width: 270px;
+     margin-left: 120px;
+ }
+ .Dos{
+     width: 270px;
+     margin-left: 600px;
+ 
+ }
+ footer{
+     width: 870px;
+margin-top: 600px;
+margin-left: 70px;
+ }
+ h1{
+     margin-left: 380px;
+ }
+ 
+ }
+@media(min-width:890px) and (max-width:975px){
+.ul{
+    margin-left: 100px;
+}
+.logo{
+    margin-left: 80px;
+    width: 215px;
+}
+.frase{
+    margin-top: -380px;
+    margin-left:350px;
+    width: 500px;
+    font-size: 20px;
+}
+.perfil{
+    margin-top: -350px;
+    margin-left: 70px;
+}
+h1{
+    margin-left: 310px;
+}
+.Uno{
+    margin-left: 30px;
+}
+.Dos{
+    margin-left: 510px;
+}
+footer{
+    margin-top: 500px;
+    width: 700px;
+    margin-left: 100px;
+}
+}
+@media(min-width:768px) and (max-width:889px){
+    .logo{
+        display: none;
+    }
+.ul{
+    margin-left: -140px;
+    position: relative;
+}
+.perfil{
+    display: none;
+}
+.frase{
+    margin-left: 115px;
+    margin-top: -350px;
+    width: 500px;
+    z-index: -1;
+
+}
+h1{
+    margin-left: 200px;
+}
+
+.sublista >a{
+    margin-top:12px;
+}
+.Uno{
+    margin-left: 210px;
+}
+.Dos{
+    margin-top: 500px;
+    margin-left: 210px;
+}
+footer{
+    margin-top: 1000px;
+
+    width: 700px;
+}
+}
+
+@media(min-width:375px) and (max-width:767px){
+    .logo{
+      width:110px;
+      margin-left: 150px;
+      margin-top: -12px;
+    }
+   
+.ul{
+
+display: none;
+}
+
+
+
+
+.acordeon{
+    display: block;
+    margin-top:45px;
+}
+
+/**/
+.perfil{
+    display: none;
+
+}
+video{
+    display: none;
+}
+.seccion1{
+    background-color: #000;
+margin-top: 200px;
+margin-left: 20px;
+display: block;
+}
+.frase{
+    display: block;
+    width: 200px;
+    margin-top: -140px;
+    margin-left: 40px;
+}
+.profesional{
+    display :block;
+}
+h1{
+    margin-top: 530px;
+    margin-left: 80px;
+    font-size: 40PX;
+    width: 200PX;
+}
+.Uno{
+    width: 260px;
+    margin-left: 20px;
+}
+.Dos{
+    width: 260px;
+    margin-top: 560px;
+    margin-left: 20px;
+}
+footer{
+    display:block;
+    margin-top: 1060px;
+    margin-left: 15px;
+    width: 315px;
+}
+} 

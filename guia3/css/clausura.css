@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    margin:4px;
+}
+.ul{
+ 
+    text-align: right;
+  width: 700px;
+  margin-left: 500px;
+
+}
+span{
+    color: rgba(133, 167, 40, 0.836);
+}
+.menu{
+    display: inline-block;
+margin-top: 50px;
+    margin-left: 90px;
+  width: 30px;
+}
+a:hover{
+    color: #09a12ad5;
+
+    border-radius: 5px;
+   
+}
+
+.sublista{
+    display: block;
+margin-left: 0px;
+padding: 3px;
+position: relative;
+height: 30px;
+    text-align: center;
+margin-top: 30px;
+}
+.submenu{
+    position: absolute;
+    display: none; 
+    background-color: white;
+    height: auto;
+    margin-top: 1px;
+    margin-left: -3px;
+width: 100px;
+z-index:1 ;
+
+padding-bottom: 10px;
+
+
+}
+
+li a:hover + ul, .submenu:hover {
+  
+    display: block;
+  
+}
+.logo{
+    width: 220px;
+    margin-top: -10px;
+    margin-left: -800px;
+    position: absolute;
+}
+/*------------------------------------------------------------*/
+
+.uno{
+    background-color: #26d19ed5;
+    height: 600px;
+    margin-top: 40px;
+}
+.titulo{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Varta', sans-serif;
+    font-size: 40px;
+}
+p{
+    background-color: white;
+    font-family: 'Varta', sans-serif;
+    font-size: 20px;
+    
+}
+.info{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 60px;
+padding: 40px;
+border-radius: 15px;
+text-align: justify;
+}
+img{
+    width: 700px;
+    margin-left: 600px;
+    margin-top: -270px;
+    position: absolute;
+}
+.dos{
+    background-color: sandybrown;
+    height: 400px;
+}
+.info1{
+width: 1000px;
+margin-top: 050px;
+margin-left: 150px;
+padding: 20px;
+
+}
+.ejemplos{
+    width: 100%;
+    height: auto;
+    background-color: #26d19ed5;
+}
+.imagen1{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 500px;
+}
+.imagen2{
+    margin-left: 700px;
+    margin-top: 40px;
+    width: 500px;
+}
+.imagen3{
+    margin-left: 350px;
+    margin-top: 370px;
+    width: 700px;
+}
+#abs{
+    margin-top: 800px;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+background-color: white;
+margin-left: 600px;
+margin-bottom: 20px;
+}
+.imagen4{
+    position: relative;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 450px;
+}
+.tit{
+    margin-top:900px;
+    font-family: 'Varta', sans-serif;
+
+    text-align: center;
+}

@@ -70,6 +70,8 @@ li a:hover + ul, .submenu:hover {
     margin-left: -800px;
     position: absolute;
 }
+
+/*/*/
 .Uno{
     background-image: url('recursos/ter.jpg');
     background-repeat: no-repeat;

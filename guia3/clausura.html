@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/clausura.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varta:wght@600&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clausuras</title>
+</head>
+<body>
+    <div class="nav">
+    
+        <div class="ul">
+            <img class="logo" src="img/logo.png" alt="">
+         <li class="menu"><a href="#">Inicio</a></li>
+              <li class="menu"><a href="calculadora.html" target="_blank">Calculadora</a>
+        
+            </li>
+            <li class="menu"><a href="#">Ejemplos </a> 
+           <ul class="submenu">
+           <li class="sublista"><a href="aleatorios.html" target="_blank" >Ejemplo 1</a></li>
+           <li class="sublista"><a href="datos.html" target="_blank">Ejemplo 2</a></li>
+           <li class="sublista"><a href="enlaces.html" target="_blank">Ejemplo 3</a></li>
+           <li class="sublista"><a href="eventos.html" target="_blank">Ejemplo 4</a></li>
+           <li class="sublista"><a href="solonumeros.html" target="_blank">Ejemplo 5</a></li>-
+           <li class="sublista"><a href="tiradados.html" target="_blank">Ejemplo 6</a></li>
+           </ul>
+             </li>
+            </li>
+        </div>
+    </div> 
+<section class="uno">
+
+<h1 class="titulo">¿Qué son las clausura?</h1>
+
+<p class="info">
+    Una clausura o closure es una función que guarda referencias del estado adyacente (ámbito léxico). Una clausura permite acceder al ámbito de una función exterior desde una función interior. En JavaScript, las clausuras se crean cada vez que una función es creada, en otras palabras es la capacidad de una función de mantener su ámbito de variables después de haber sido retornada por otra función.
+
+
+</p>
+<img src="img/clausura.PNG" alt="">
+</section>
+
+<section class="dos">
+    <h1 class="titulo">¿Para qué sirven?</h1>
+
+    <p class="info1">
+        La existencia de closures aporta ventajas a la programación con JavaScript, ya que podemos usarlos para resolver necesidades que nos surjan. Pero también genera problemas: a veces se generan closures sin querer con efectos indeseados. O a veces se crea un excesivo número de closures innecesariamente, consumiendo recursos y haciendo más lenta la ejecución del código.
+    
+    
+    </p> 
+</section>
+<section class="ejemplos">
+    <h1 class="titulo">Ejemplos</h1>
+    <img  class="imagen1"  src ="img/ejemplo1.PNG" alt="">
+    <img  class="imagen2"  src="img/ejemplo2.PNG" alt="">
+    <img  class="imagen3"  src="img/ejemplo3.PNG" alt="">
+
+    <button onclick="ejemplo()" id="abs" type="submit">Ejemplo Practico</button>
+    <h1 class="tit">Codigo del ejemplo funcional</h1>
+   <img src="img/funcional.PNG" alt="" class="imagen4"> 
+</section>
+<script src="js/clausura.js"></script>
+</body>
+</html>

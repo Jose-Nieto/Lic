@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Ip.css">
+    <script src="js/Ip.js"></script>
+
+    <title>Ip</title>
+</head>
+<body>
+    <form action="javascript:void(0)" name="frmdatos" id="dataform">
+        <h2 class="contact">Validador de datos</h2>
+        <span class="contact">
+        <label for="tipo">Seleccione el tipo de dato:</label>&nbsp;&nbsp;
+        </span>
+        <select name="seltipo" id="tipo">
+        <option value="IPv4" selected>IPv4</option>
+        <option value="Direccion">Direccion</option>
+        <option value="Correo">Correo    </option>
+     
+        </select>
+        <span class="contact">
+        <label id="lab" for="txtdato">Dato:</label>&nbsp;&nbsp;
+        </span>
+        <input type="text" name="txtdato" id="data" value="" maxlength="25"
+       placeholder="(Ingrese el dato)" /><br />
+        <input type="button" name="btnvalidar" id="validar" value="Validar" />
+       </form>
+     
+</body>
+</html>

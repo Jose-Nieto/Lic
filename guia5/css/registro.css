@@ -84,3 +84,20 @@ li a:hover + ul, .submenu:hover {
     box-shadow: 1px 1px 1px 1px #000;
 
 }
+table {
+    border-style:outset;
+    border-width:1px;
+    margin: 50px auto;
+   }
+   td {
+   
+    font-family:"Lato";
+    font-size:9pt;
+    font-weight:300;
+    padding: 2.5px 30px;
+    text-align:center;
+    
+   }
+   th{
+       padding: 2.5px 30px;
+   }
